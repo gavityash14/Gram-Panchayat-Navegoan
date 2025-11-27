@@ -15,9 +15,9 @@ export default function AboutGramPanchayat() {
   }
   const tabs = [
     { key: 'overview', en: 'Overview', mr: 'आढावा'},
-    { key: 'demographics', en: 'Demographics', mr: 'आढावा'},
-    { key: 'education', en: 'Education', mr: 'आढावा'},
-    { key: 'culture', en: 'Culture', mr: 'आढावा'}
+    { key: 'demographics', en: 'Demographics', mr: 'लोकसंख्या'},
+    { key: 'education', en: 'Education', mr: 'शिक्षण'},
+    { key: 'culture', en: 'Culture', mr: 'संस्कृती'}
   ];
 
   const details = {
@@ -52,36 +52,36 @@ Lok Sabha Constituency: Dhule.<br />
       title: "Population and Geographic Information",
       details: `The population of the Gram Panchayat according to the 2011 census: Female-369, Male-442, Total-838.<br />
       Geographic area of the village: 694 hectares:<br />
-      • Dry land area-325.00 hectares<br />
-      • Irrigated area-72.10 hectares<br />
+      • Dry land area-270.00 hectares<br />
+      • Irrigated area-418.00 hectares<br />
       • Forest area-0.00 hectares<br />
-      • Village settlement area-3.72 hectares<br />
-      • River bed-0.05 hectares<br />
-      • Roads, canals, pipelines-2.32 hectares<br />
-      • Area Under Cultivation-1.32 hectares<br />
+      • Village settlement area-6.00 hectares<br />
+      • River bed-0.00hectares<br />
+      • Roads, canals, pipelines-2.62 hectares<br />
+      • Area Under Cultivation-2.57 hectares<br />
       Distance from Taluka: 8 km, Distance from District: 90 km.`,
       mr_title: "लोकसंख्या आणि भौगोलिक माहिती",
       mr_details: `ग्रामपंचायतीची लोकसंख्या सन-२०११ च्या जनगणना नुसार:
 <br />
-स्त्री-799 पुरुष-862 एकूण 1661 एवढी आहे.
+स्त्री-369 पुरुष-442 एकूण 838 एवढी आहे.
 <br />
-गावाचे भौगोलिक क्षेत्र 427.76 हेक्टर आहे:
+गावाचे भौगोलिक क्षेत्र 694.00 हेक्टर आहे:
 <br />
-• जिरायत क्षेत्र-325.00 हेक्टर
+• जिरायत क्षेत्र-270.00 हेक्टर
 <br />
-• बागायत क्षेत्र- हेक्टर
+• बागायत क्षेत्र- 418.00 हेक्टर
 <br />
 • वनक्षेत्र-0.00 हेक्टर
 <br />
-• गावठाण क्षेत्र-3.72 हेक्टर
+• गावठाण क्षेत्र-6.00 हेक्टर
 <br />
-• नदीपात्र-0.05 हेक्टर
+• नदीपात्र-0.00 हेक्टर
 <br />
-• रस्ते, कॅनोल, नळमार्ग-2.32 हेक्टर
+• रस्ते, कॅनोल, नळमार्ग-2.62 हेक्टर
 <br />
-• लागवडीखालील क्षेत्र-1.32 हेक्टर
+• लागवडीखालील क्षेत्र-2.57 हेक्टर
 <br />
-गावापासून तालुक्याचे अंतर 23 कि.मी. व जिल्ह्याचे अंतर 114 कि.मी. आहे.`,
+गावापासून तालुक्याचे अंतर 8 कि.मी. व जिल्ह्याचे अंतर 90 कि.मी. आहे.`,
     },
     education: {
       title: "Educational Facilities",

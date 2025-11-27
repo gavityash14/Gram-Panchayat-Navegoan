@@ -60,6 +60,7 @@ import bhim_upi_trademark from "../assets/images/bhim-upi-trademark.png"
 import upi_trademark from "../assets/images/upi-trademark.png"
 import qr_code_1 from "../assets/images/qr-code-1.png"
 import qr_code_2 from "../assets/images/qr-code-2.png"
+import copy_icon from "../assets/images/copy-icon.png"
 
 
 
@@ -125,6 +126,6 @@ export {
     bhim_upi_trademark,
     upi_trademark,
     qr_code_1,
-    qr_code_2
-    
+    qr_code_2,
+    copy_icon  
 };
