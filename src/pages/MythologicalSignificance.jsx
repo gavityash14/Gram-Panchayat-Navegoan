@@ -12,69 +12,82 @@ export default function MythologicalSignificance() {
         <h1 className="text-black font-bold text-4xl">{language === "en" ? "Mythological Significance" : "पौराणिक महत्व"} </h1>
         <hr className='mt-5 mb-5' />
         
-          <h2 className='font-bold'>{language === "en" ? "Historical events of Khamlon village.":"खामलोन गावातील ऐतिहासिक घटना."}</h2>
+          <h2 className='font-bold'>{language === "en" ? "Historical events of Navegoan village.":"नवेगाव गावातील ऐतिहासिक घटना."}</h2>
           {language === "en" ?
             (
           <ol className='list-decimal md:mt-4'>
             
-          <li>Maratha-Mughal conflict in Baghlan province (17th century).</li>
+          <li>Association with Parashuram:</li>
             <ul className='list-disc md:pl-4'>
-              <li>Khamlon village was located in the vicinity of Salher-Mulher forts, so during that time, there were movements of Maratha and Mughal armies here.</li>
-              <li>The Battle of Salher in 1672 was an important event during the Shivaji era. In this battle, Shivaji Maharaj's army defeated the Mughals.</li>
-              <li>During this battle, it is mentioned in some local folklore that people from the surrounding villages (including Khamlon) helped the Maratha army by providing food, grains, and local information.</li>
+              <li>The highest fort in Maharashtra, Salher Fort, located in Baglan taluka, is associated with Lord Parashuram, the sixth avatar of Vishnu.</li>
+              <li>Local Belief:</li>
+              <li>Parashuram performed tapasya (penance) on Salher.</li>
+              <li>Some legends claim that after reclaiming land from the sea, Parashuram stayed in the Baglan hills and meditated here.</li>
+              <li>Since Navegaon lies within the same mountain belt, local oral tradition often includes this larger mythological association.</li>
             </ul>
 
-          <li>Peshwa and Baglan Administration Period (18th Century).</li>
+          <li>Ancient “Dakshinapath” Trade Route – Mention in Puranic Geography:</li>
             <ul className='list-disc md:pl-4'>
-              <li>During the Peshwa period, Khamlon village was part of the revenue collection and agricultural system of Baglan province.</li>
-              <li>During that period, the villagers in the village came together and built wells, ponds and temples, which increased agricultural production.</li>
-              <li>Some old inscriptions and remains of stone construction are found in the village, which are examples of the craftsmanship of that period.</li>
+              <li>Baglan lies along the ancient north–south trade corridor, historically believed to be part of the Dakshinapath route, which is mentioned in: Skanda Purana, Padma Purana, Brahmanda Purana.</li>
+              <li>This corridor linked northern and southern sacred regions. Villages along this belt—including Navegaon—are therefore indirectly part of Purāṇic geography.</li>
             </ul>
 
-          <li>British rule (19th century).</li>
+          <li>Hill Deities & Local Kuldevata Traditions:</li>
             <ul className='list-disc md:pl-4'>
-              <li>During the British period, the villagers of Khamlon experienced changes in taxation and land revenue system.</li>
-              <li>Many became aware of the freedom movement; some, according to elders, participated in the non-cooperation movement at the local level.</li>
-              <li>During that period, schools and the village panchayat system were established in the village, which remains the basis of administration even today.</li>
+              <li>Villages in Baglan, including Navegaon, typically worship: Khandoba, Kalika Mata, Grāmdevatā / Grāma Devī, Local guardian deities of the hills (Waghoba, Dongar Dev).</li>
+              <li>These are part of Maharashtra’s ancient animistic and later Shaiva–Shakta traditions, giving the village cultural-mythological depth even if not tied to a major epic event.</li>
             </ul>
 
-          <li>Post-Independence Period (After 1947).</li>
+          <li> Connection to Fort Network with Deep Cultural Roots:</li>
             <ul className='list-disc md:pl-4'>
-              <li>After the independence of India, agricultural reforms, irrigation schemes and cooperative societies were developed in Khamlon village.</li>
-              <li>The Gram Panchayat system was established and the socio-economic development of the village took place rapidly.</li>
-              <li>The village made progress in the fields of agriculture, education and culture.</li>
+              <li>The Baglan forts — Salher, Mulher, Mora, Salota, Hargad — contain: Ancient rock-cut cisterns, Temples dating back centuries, Carvings and motifs linked to early Shaiva worship</li>
+              <li>These archaeological and mythic layers form the historical-religious environment around villages such as Navegaon.</li>
             </ul>
+
+             <li>Local Oral Mythology</li>
+             <ul className='list-disc md:pl-4'>
+              <li>Most Baglan villages maintain oral stories about:Ancient sages (Rishis) who once meditated in nearby hills.</li>
+              <li> Yakshas and village guardian spirits.</li>
+              <li>Sacred groves (Devrai) in or near the forest areas.</li>
+             </ul>
       
       </ol>)
       : (
         <ol className='list-decimal md:mt-4'>
-          <li>बागलाण प्रांतातील मराठा-मुघल संघर्ष (१७व्या शतकात).</li>
+          <li>परशुरामांशी संबंध:</li>
             <ul className='list-disc md:pl-4'>
-              <li>खामलोन गाव साल्हेर-मुल्हेर किल्ल्यांच्या परिसरात असल्यामुळे त्या काळात येथे मराठे आणि मुघल सैन्यांच्या हालचाली होत असत.</li>
-              <li>सन १६७२ मध्ये झालेली साल्हेरची लढाई ही शिवकालीन महत्त्वाची घटना होती. या लढाईत शिवाजी महाराजांच्या सेनेने मुघलांना पराभूत केले.</li>
-              <li>या लढाईच्या वेळी आजूबाजूच्या गावांमधील (खामलोनसह) लोकांनी अन्न, धान्य, आणि स्थानिक माहिती पुरवून मराठा सेनेला मदत केल्याचा उल्लेख काही स्थानिक लोककथांमध्ये आढळतो.</li>
+              <li>बागलाण तालुक्यात असलेला महाराष्ट्रातील सर्वात उंच किल्ला, साल्हेर किल्ला, विष्णूचा सहावा अवतार भगवान परशुराम यांच्याशी संबंधित आहे.</li>
+              <li>स्थानिक श्रद्धा:</li>
+              <li>परशुरामांनी साल्हेरवर तपस्या केली.</li>
+              <li>काही आख्यायिका असा दावा करतात की समुद्रातून जमीन परत मिळवल्यानंतर, परशुराम बागलाण टेकड्यांमध्ये राहिले आणि येथे ध्यान केले.</li>
+              <li>नवेगाव त्याच पर्वतीय पट्ट्यात असल्याने, स्थानिक मौखिक परंपरेत अनेकदा या मोठ्या पौराणिक संबंधाचा समावेश होतो.</li>
             </ul>
 
-          <li>पेशवे आणि बागलाण प्रशासन काळ (१८व्या शतकात)</li>
+          <li>प्राचीन "दक्षिणापथ" व्यापार मार्ग - पौराणिक भूगोलात उल्लेख:</li>
             <ul className='list-disc md:pl-4'>
-              <li>पेशवे काळात खामलोन गाव बागलाण प्रांतातील राजस्व वसुली आणि शेती व्यवस्थेचा भाग होते.</li>
-              <li>त्या काळात गावात ग्रामस्थांनी एकत्र येऊन विहिरी, तळे आणि देवस्थाने बांधली, ज्यामुळे शेती उत्पादन वाढले.</li>
-              <li>काही जुने शिलालेख आणि दगडी बांधकामाचे अवशेष गावात आढळतात, जे त्या काळाच्या कारागिरीचे उदाहरण आहेत.</li>
+              <li>बागलाण प्राचीन उत्तर-दक्षिण व्यापार मार्गाच्या बाजूने आहे, ऐतिहासिकदृष्ट्या दक्षिणापथ मार्गाचा भाग असल्याचे मानले जाते, ज्याचा उल्लेख स्कंद पुराण, पद्म पुराण, ब्रह्मांड पुराणात आहे.</li>
+              <li>हा मार्ग उत्तर आणि दक्षिण पवित्र प्रदेशांना जोडतो. या पट्ट्यातील गावे - नवेगावसह - अप्रत्यक्षपणे पुराणिक भूगोलाचा भाग आहेत.</li>
             </ul>
 
-          <li>ब्रिटिश राजवटीचा काळ (१९व्या शतकाळ)</li>
+          <li>टेकडी देवता आणि स्थानिक कुलदेवता परंपरा:</li>
             <ul className='list-disc md:pl-4'>
-              <li>ब्रिटिश काळात खामलोन ग्रामस्थांनी करप्रथा आणि जमीन महसूल व्यवस्थेत बदल अनुभवले.</li>
-              <li>अनेकांनी स्वातंत्र्य चळवळीबद्दल जागृती केली; काहींनी स्थानिक स्तरावर असहकार आंदोलनात सहभाग घेतल्याचे वयोवृद्ध सांगतात.</li>
-              <li>गावात त्या काळात शाळा आणि ग्रामपंचायत रचना सुरु झाली, जी आजही प्रशासनाचा पाया आहे.</li>
+              <li>नवेगावसह बागलाणमधील गावे सामान्यतः पूजा करतात: खंडोबा, कालिका माता, ग्रामदेवता / ग्रामदेवी, डोंगरांच्या स्थानिक रक्षक देवता (वाघोबा, डोंगर देव).</li>
+              <li>हे महाराष्ट्राच्या प्राचीन शैव-शक्ती परंपरांचा भाग आहेत, जे गावाला सांस्कृतिक-पौराणिक खोली देतात, जरी ते एखाद्या मोठ्या महाकाव्याशी जोडलेले नसले तरी.</li>
             </ul>
 
-           <li>स्वातंत्र्योत्तर काळ (१९४७ नंतर)</li>
+           <li>किल्ल्यांचे नेटवर्क खोल सांस्कृतिक मुळांशी जोडलेले आहे:</li>
             <ul className='list-disc md:pl-4'>
-              <li>भारत स्वातंत्र्यानंतर खामलोन गावात शेती सुधारणा, सिंचन योजना आणि सहकारी संस्था यांचा विकास झाला.</li>
-              <li>ग्रामपंचायत प्रणाली स्थापन झाली आणि गावाचा सामाजिक-आर्थिक विकास वेगाने झाला.</li>
-              <li>शेती, शिक्षण आणि संस्कृती क्षेत्रात गावाने प्रगती साधली.</li>
+              <li>बागलाण किल्ले - साल्हेर, मुल्हेर, मोरा, सालोटा, हरगड - मध्ये हे समाविष्ट आहे: प्राचीन दगडात कोरलेले टाके, शतकानुशतके जुनी मंदिरे, सुरुवातीच्या शैव पूजेशी जोडलेले कोरीवकाम आणि आकृतिबंध</li>
+              <li>हे पुरातत्वीय आणि पौराणिक थर नवेगावसारख्या गावांभोवती ऐतिहासिक-धार्मिक वातावरण तयार करतात.</li>
             </ul>
+
+            <li>स्थानिक मौखिक पौराणिक कथा:</li>
+            <ul className='list-disc md:pl-4'>
+              <li>बहुतेक बागलाण गावांमध्ये मौखिक कथा आहेत: जवळच्या टेकड्यांमध्ये एकेकाळी ध्यान करणारे प्राचीन ऋषी (ऋषी).</li>
+              <li>यक्ष आणि गावाचे रक्षक आत्मे.</li>
+              <li>वनक्षेत्रात किंवा जवळील पवित्र उपवन (देवराई).</li>
+            </ul>
+            
         </ol>
       )}
           

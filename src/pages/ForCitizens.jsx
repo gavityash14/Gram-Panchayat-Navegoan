@@ -85,8 +85,8 @@ export default function ForCitizens() {
 
               <h3 className="text-start font-bold mt-16">
                 {language === 'en'
-                  ? 'Your Government Service Center, Sakode'
-                  : 'आपले सरकार सेवा केंद्र, साकोडे'}
+                  ? 'Your Government Service Center, Navegoan'
+                  : 'आपले सरकार सेवा केंद्र, नवेगाव'}
               </h3>
 
               <p

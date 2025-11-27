@@ -98,16 +98,16 @@ export default function ContactUs() {
           </div>
           <div className='flex flex-col md:flex-row text-white mt-16 gap-4 md:px-20 md:pb-20 md:pt-10'>
             <div className='md:w-[100%] rounded-2xl overflow-hidden'>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29846.187769235672!2d74.2741805417888!3d20.759973722637543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdef4bbf97f6083%3A0xade9cd92a843359e!2sKhamlon%2C%20Maharashtra%20423204!5e0!3m2!1sen!2sin!4v1763516620873!5m2!1sen!2sin" width="100%" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46821.49927561949!2d74.09794440855482!3d20.570103642162785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bde6484c12e8531%3A0xede8b1dadc1998a5!2sNavegaon%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1764206104660!5m2!1sen!2sin" width="600" height="450" style={{border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade">
+               </iframe>
             </div>
 
             <div className='flex-row text-start py-4 px-10 bg-gray-500 md:ml-5 rounded-2xl self-center w-full md:h-[450px]'>
-              <h3 className='font-bold text-2xl text-center'>Gram Panchayat, Khamlon</h3>
+              <h3 className='font-bold text-2xl text-center'>Gram Panchayat, Navegoan</h3>
               <hr className='mt-4 mb-4' />
-              <p className='md:text-[18px] md:pt-4'><strong>Email Id:</strong> nskgpkhamlon31@gmail.com</p>
-              <p className='md:text-[18px] md:pt-4'><strong>LGD Code: </strong>182648</p>
-              <p className='md:text-[18px] md:pt-4'><strong>Censes Code: </strong>550060</p>
+              <p className='md:text-[18px] md:pt-4'><strong>Email Id:</strong> nskgpnavegoan65@gmail.com</p>
+              <p className='md:text-[18px] md:pt-4'><strong>LGD Code: </strong>182684</p>
+              <p className='md:text-[18px] md:pt-4'><strong>Censes Code: </strong>550139</p>
             </div>
           </div>
         </div>
