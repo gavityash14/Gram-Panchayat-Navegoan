@@ -136,7 +136,7 @@ function Navbar() {
           </div>
 
           <Link to="/for-citizens" className="hover:text-gray-300 transition">{language === "en" ? "For Citizens" : "नागरिकांसाठी"} </Link>
-          <Link to="/payment Of tax" className="hover:text-gray-300 transition">{language === "en" ? "Payment Of Tax" : "कर भरणा"} </Link>
+          <Link to="/payment-of-tax" className="hover:text-gray-300 transition">{language === "en" ? "Payment Of Tax" : "कर भरणा"} </Link>
           <Link to="/contactus" className="hover:text-gray-300 transition">{language === "en" ? "Contact Us" : "आमच्याशी संपर्क साधा"} </Link>
           <Link to="/complaints" className="hover:text-gray-300 transition">{language === "en" ? "Complaints" : "तक्रारी"} </Link>
           <Link to="/gallery" className="hover:text-gray-300 transition">{language === "en" ? "Gallery" : "फोटो गॅलरी"} </Link>
@@ -276,7 +276,7 @@ function Navbar() {
           </div>
 
           <Link to="/for-citizens" className="hover:bg-gray-600 px-3 py-1 rounded">{language === "en" ? "For Citizens" : "नागरिकांसाठी"}</Link>
-          <Link to="/payment Of tax" className="hover:text-gray-300 transition">{language === "en" ? "Payment Of Tax" : "कर भरणा"} </Link>
+          <Link to="/payment-of-tax" className="hover:text-gray-300 transition">{language === "en" ? "Payment Of Tax" : "कर भरणा"} </Link>
           <Link to="/contactus" className="hover:bg-gray-600 px-3 py-1 rounded">{language === "en" ? "Contact Us" : "आमच्याशी संपर्क साधा"}</Link>
           <Link to="/complaints" className="hover:bg-gray-600 px-3 py-1 rounded">{language === "en" ? "Complaints" : "तक्रारी"}</Link>
           <Link to="/gallery" className="hover:bg-gray-600 px-3 py-1 rounded">{language === "en" ? "Gallery" : "फोटो गॅलरी"}</Link>

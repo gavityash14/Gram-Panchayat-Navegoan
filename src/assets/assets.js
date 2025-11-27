@@ -15,8 +15,6 @@ import panchayat_officer from "../assets/images/Panchayat Adhikari.jpeg"
 import panchayat_staff_1 from "../assets/images/staff1.jpeg"
 import panchayat_staff_2 from "../assets/images/staff2.jpeg"
 import panchayat_staff_3 from "../assets/images/staff3.jpeg"
-import panchayat_staff_4 from "../assets/images/staff4.jpeg"
-import panchayat_staff_5 from "../assets/images/staff5.jpeg"
 import required_documents from "../assets/images/document requirements.jpg"
 import right_to_public_service_ordinance from "../assets/pdf/Maharashtra Right to Public Service Ordinance.pdf"
 import residence_self_declaration from "../assets/pdf/Residence Self-Declaration.pdf"
@@ -58,6 +56,11 @@ import gallery_video_8 from "../assets/video/gallery-video-8.mp4"
 import gallery_video_9 from "../assets/video/gallery-video-9.mp4"
 import gallery_video_10 from "../assets/video/gallery-video-10.mp4"
 import zila_parishad_nashik from "../assets/images/zila-parishad-nashik.jpg"
+import bhim_upi_trademark from "../assets/images/bhim-upi-trademark.png"
+import upi_trademark from "../assets/images/upi-trademark.png"
+import qr_code_1 from "../assets/images/qr-code-1.png"
+import qr_code_2 from "../assets/images/qr-code-2.png"
+
 
 
 export {
@@ -78,8 +81,6 @@ export {
     panchayat_staff_1,
     panchayat_staff_2,
     panchayat_staff_3,
-    panchayat_staff_4,
-    panchayat_staff_5,
     required_documents,
     right_to_public_service_ordinance,
     residence_self_declaration,
@@ -120,6 +121,10 @@ export {
     gallery_video_8,
     gallery_video_9,
     gallery_video_10,
-    zila_parishad_nashik
+    zila_parishad_nashik,
+    bhim_upi_trademark,
+    upi_trademark,
+    qr_code_1,
+    qr_code_2
     
 };

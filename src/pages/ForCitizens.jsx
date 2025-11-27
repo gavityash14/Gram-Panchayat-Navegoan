@@ -94,8 +94,8 @@ export default function ForCitizens() {
                 dangerouslySetInnerHTML={{
                   __html:
                     language === 'en'
-                      ? '<strong>Center Operator:</strong> Dattu Babulal Thakre <br />Mobile Number: 9604261186'
-                      : '<strong>केंद्र चालक:</strong> दत्तू बाबूलाल ठाकरे <br />मोबाईल क्रमांक: 9604261186',
+                      ? '<strong>Center Operator:</strong> Mrs.Yogita Sanjay Pawar <br />Mobile Number: 7420919812'
+                      : '<strong>केंद्र चालक:</strong> सौ.योगिता संजय पवार<br />मोबाईल क्रमांक: 9604261186',
                 }}
               ></p>
             </div>

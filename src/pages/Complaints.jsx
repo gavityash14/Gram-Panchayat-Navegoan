@@ -7,7 +7,9 @@ export default function Complaints() {
   return (
     <div>
       <Header />
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsGpyM-IAcgBMzIR4hY_E5bgys_5AvucoNC4ghrBq4DTX-4g/viewform?embedded=true" width="100%" height="1600px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <div style={{display: 'flex', justifyContent: 'center'}}>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdDJsEOqRtgcKe_ZGzQMknJQoWcziqYq27WgsvMTuYBdGuGXw/viewform?embedded=true" width="640" height="1366" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
       <Footer />
     </div>
   )

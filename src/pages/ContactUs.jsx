@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
-import { sarpanch, panchayat_officer, panchayat_staff_1, panchayat_staff_2, panchayat_staff_3, panchayat_staff_4, panchayat_staff_5 } from '../assets/assets'
+import { sarpanch, panchayat_officer, panchayat_staff_1, panchayat_staff_2, panchayat_staff_3,} from '../assets/assets'
 import Footer from '../components/Footer'
 
 
@@ -32,9 +32,9 @@ export default function ContactUs() {
                 alt="panchayat_officer"
                 className="h-[60px] w-[60px] md:h-[200px] md:w-[200px] object-cover rounded-full"
               />
-              <h2 className="mt-3 text-[12px] md:text-lg font-semibold">श्री.विद्याधर पंडित महाले </h2>
+              <h2 className="mt-3 text-[12px] md:text-lg font-semibold">श्री.राजू भटू ठाकरे </h2>
               <h3 className="text-[10px] md:text-[16px]">पंचायत अधिकारी</h3>
-              <h3 className="text-[10px] md:text-sm">मो. Mob no-9764659247</h3>
+              <h3 className="text-[10px] md:text-sm">मो. Mob no-8799885297</h3>
             </div>
           </div>
 
@@ -48,7 +48,7 @@ export default function ContactUs() {
                 alt="staff 1"
                 className="h-[60px] w-[60px] md:h-[200px] md:w-[200px] object-cover rounded-full"
               />
-              <h2 className="mt-3 text-[12px] md:text-lg font-semibold">श्री. भिला नामदेव अहिरराव </h2>
+              <h2 className="mt-3 text-[12px] md:text-lg font-semibold">श्री. देवाजी काशिनाथ बोरसे </h2>
               <h3 className="text-[10px] md:text-[16px]">ग्रामपंचायत शिपाई</h3>
             </div>
 
@@ -59,8 +59,8 @@ export default function ContactUs() {
                 alt="staff 2"
                 className="h-[60px] w-[60px] md:h-[200px] md:w-[200px] object-cover rounded-full"
               />
-              <h2 className="mt-3 text-[12px] md:text-lg font-semibold">श्री. वैभव भिला अहिरराव</h2>
-              <h3 className="text-[10px] md:text-[16px]">पाणी पुरवठा कर्मचारी</h3>
+              <h2 className="mt-3 text-[12px] md:text-lg font-semibold">सौ.योगिता संजय पवार</h2>
+              <h3 className="text-[10px] md:text-[16px]">केंद्र चालक</h3>
             </div>
 
             {/* Staff 3 */}
@@ -70,30 +70,8 @@ export default function ContactUs() {
                 alt="staff 3"
                 className="h-[60px] w-[60px] md:h-[200px] md:w-[200px] object-cover rounded-full"
               />
-              <h2 className="mt-3 text-[12px] md:text-lg font-semibold">श्री. निंबा सोनू अहिरराव </h2>
+              <h2 className="mt-3 text-[12px] md:text-lg font-semibold">श्री. भगवान आनंदसिंग पवार </h2>
               <h3 className="text-[10px] md:text-[16px]">ग्राम रोजगार सेवक</h3>
-            </div>
-
-            {/* Staff 4 */}
-            <div className="flex flex-col items-center">
-              <img
-                src={panchayat_staff_4}
-                alt="staff 3"
-                className="h-[60px] w-[60px] md:h-[200px] md:w-[200px] object-cover rounded-full"
-              />
-              <h2 className="mt-3 text-[12px] md:text-lg font-semibold">श्री.अमोल भरत काकडे </h2>
-              <h3 className="text-[10px] md:text-[16px]">संगणक परिचालक</h3>
-            </div>
-
-            {/* Staff 5 */}
-            <div className="flex flex-col items-center">
-              <img
-                src={panchayat_staff_5}
-                alt="staff 3"
-                className="h-[60px] w-[60px] md:h-[200px] md:w-[200px] object-cover rounded-full"
-              />
-              <h2 className="mt-3 text-[12px] md:text-lg font-semibold">श्री. अमित भिला अहिरराव  </h2>
-              <h3 className="text-[10px] md:text-[16px]">युवा प्रशिक्षणार्थी</h3>
             </div>
           </div>
           <div className='flex flex-col md:flex-row text-white mt-16 gap-4 md:px-20 md:pb-20 md:pt-10'>

@@ -16,6 +16,7 @@ import TribalDevelopmentDepartment from './pages/TribalDevelopmentDepartment';
 import WomenandChildDevelopmentDepartment from './pages/WomenandChildDevelopmentDepartment';
 import EmploymentGuaranteeScheme from './pages/EmploymentGuaranteeScheme';
 import ForCitizens from './pages/ForCitizens';
+import PaymentOfTax from './pages/PaymentOfTax';
 import OtherGovernmentScheme from './pages/OtherGovernmentScheme';
 import OtherDetails from './pages/OtherDetails';
 import { SearchProvider } from './context/SearchContext';
@@ -48,7 +49,7 @@ function App() {
               <Route path="/government-scheme-information/women-and-child-development-department" element={<WomenandChildDevelopmentDepartment />} />
               <Route path="/government-scheme-information/employment-guarantee-scheme-mgnarega" element={<EmploymentGuaranteeScheme />} />
               <Route path="/government-scheme-information/other" element={<OtherGovernmentScheme />} />
-
+              <Route path="/payment-of-tax" element={<PaymentOfTax />} />
               <Route path="/for-citizens" element={<ForCitizens />} />
               <Route path="/contactus" element={<ContactUs />} />
               <Route path="/complaints" element={<Complaints />} />
