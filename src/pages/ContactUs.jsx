@@ -7,6 +7,9 @@ import Footer from '../components/Footer'
 export default function ContactUs() {
   return (
     <div>
+      <title>संपर्क</title>
+      <meta name='description' content='आमच्याशी संपर्क साधा' />
+      <link rel="canonical" href="/contact-us" />
       <Header />
       <div className="bg-black  flex items-center justify-center px-4 py-4 md:px-10 md:py-10">
         <div className="bg-gray-600 rounded-2xl p-2 md:p-8 w-full text-center">
@@ -21,7 +24,7 @@ export default function ContactUs() {
                 className="h-[60px] w-[60px] md:h-[200px] md:w-[200px] object-cover rounded-full"
               />
               <h2 className="mt-3 text-[12px] md:text-lg font-semibold">श्री.सुभाष देवचंद अहिरे  </h2>
-              <h3 className="text-[10px] md:text-[16px]">प्रशासक ग्रामपंचायत खामलोन</h3>
+              <h3 className="text-[10px] md:text-[16px]">प्रशासक ग्रामपंचायत नवेगाव </h3>
               <h3 className="text-[10px] md:text-sm">मो. 9890126462</h3>
             </div>
 

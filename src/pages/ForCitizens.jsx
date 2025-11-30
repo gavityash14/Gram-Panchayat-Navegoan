@@ -13,6 +13,9 @@ export default function ForCitizens() {
 
   return (
     <div>
+      <title>नागरिकांसाठी</title>
+      <meta name='description' content='कागदपत्रे संबंधित माहिती'/>
+      <link rel="canonical" href="/for-citizens" />
       <Header />
 
       <div className="bg-black flex items-center justify-center px-4 py-4 md:px-10 md:py-10">
@@ -118,7 +121,7 @@ export default function ForCitizens() {
               ></iframe>
             </div>
             <div className="w-full md:w-[50%] flex-row md:ml-5 mt-5 md:mt-0">
-              <h1 className="mb-8">{language === "en" ? "Residence Self-Declaration" : "रदिवासी स्वयांघोषणापत्र"} </h1>
+              <h1 className="mb-8">{language === "en" ? "Residence Self-Declaration" : "रहिवासी स्वयांघोषणापत्र"} </h1>
               <iframe
                 width="100%"
                 src={residence_self_declaration}

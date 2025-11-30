@@ -73,6 +73,9 @@ export default function Gallery() {
 
   return (
     <div>
+      <title>गॅलरी</title>
+      <meta name="description" content="ग्रामपंचायतीशी संबंधित फोटो आणि व्हिडिओ पहा" />
+      <link rel="canonical" href="/gallery" />
       <Header />
       <div className="bg-black text-white min-h-screen flex flex-col items-center px-6 py-12">
         {/* Title */}

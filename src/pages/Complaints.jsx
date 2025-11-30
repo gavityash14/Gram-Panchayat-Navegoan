@@ -1,14 +1,26 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 
 export default function Complaints() {
+  const [isLoading, setIsLoading] = useState(true);
   return (
     <div>
+      <title>तक्रारी</title>
+      <meta  name='description' content='तुमची तक्रार किंवा सूचना नोंदवण्यासाठी कृपया खालील फॉर्म भरा'/>
+      <link rel="canonical" href="/complaints" />
       <Header />
       <div style={{display: 'flex', justifyContent: 'center'}}>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdDJsEOqRtgcKe_ZGzQMknJQoWcziqYq27WgsvMTuYBdGuGXw/viewform?embedded=true" width="640" height="1366" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        {
+          isLoading && (
+            <div className='absolute inset-72 flex flex-col items-center justify-center bg-gray-600 z-10 border-2 border-black rounded-2xl'>
+              <div className='w-12 h-12 border-4 border-gray-300 border-t-blue-600 rounded-full animate-spin'></div>
+              <p className='text-white'>Loading Form ...</p>
+            </div>
+          )
+        }
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdDJsEOqRtgcKe_ZGzQMknJQoWcziqYq27WgsvMTuYBdGuGXw/viewform?embedded=true" width="640" height="1366" onLoad={() => setIsLoading(false)} frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </div>
       <Footer />
     </div>

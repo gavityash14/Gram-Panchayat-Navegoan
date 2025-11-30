@@ -7,6 +7,9 @@ export default function MythologicalSignificance() {
   const { language } = useContext(AppContext);
   return (
     <div className="flex flex-col min-h-screen">
+      <title>पौराणिक महत्व</title>
+      <meta name='description' content='नवेगाव गावातील ऐतिहासिक घटना.'/>
+      <link rel="canonical" href="/" />
       <Header />
       <div className="flex-1 bg-gray-200 px-10 py-10">
         <h1 className="text-black font-bold text-4xl">{language === "en" ? "Mythological Significance" : "पौराणिक महत्व"} </h1>

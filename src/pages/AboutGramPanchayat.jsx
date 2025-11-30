@@ -238,6 +238,9 @@ Lok Sabha Constituency: Dhule.<br />
 
   return (
     <div>
+      <title>ग्रामपंचायतीबद्दल</title>
+      <meta name='description' content='नवेगाव हे महाराष्ट्र राज्यातील नाशिक जिल्ह्यातील बागलाण तालुक्यात वसलेले एक गाव आहे. या ग्रामपंचायतीचे नाव नवेगाव ग्रामपंचायत आहे.' />
+      <link rel="canonical" href="/about-us/about-gram-panchayat" />
       <Header />
       <div className='flex flex-col md:flex-row bg-gray-200 px-10 gap-5 py-10 md:h-[550px] justify-center'>
         <h1 className='text-black font-bold text-4xl self-center hidden md:flex' dangerouslySetInnerHTML={{ __html: (language === "en") ? "About <br />Gram <br />Panchayat" : "ग्रामपंचायतीबद्दल" }}></h1>

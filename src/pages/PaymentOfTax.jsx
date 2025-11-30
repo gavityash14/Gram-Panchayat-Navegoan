@@ -28,6 +28,9 @@ export default function PaymentOfTax() {
 
   return (
     <div>
+      <title>कर भरणा</title>
+      <meta name='description' content='सर्व कर धारकांना सुचना करण्यात येते की, आपण आपल्या घराची घरपट्टी / पाणीपट्टी भरणा QR कोड चा वापर करुन ऑनलाईन भरणा करु शकता.' />
+      <link rel="canonical" href="/payment-of-tax" />
       <Header />
       <div className="bg-black flex items-center justify-center px-4 py-4 md:px-10 md:py-10">
         <div className="bg-gray-600 rounded-2xl p-2 md:p-8 w-full text-center">

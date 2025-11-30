@@ -7,6 +7,9 @@ export default function HistoricalSignificance() {
   const { language } = useContext(AppContext);
   return (
     <div className="flex flex-col min-h-screen">
+      <title>ग्रामपंचायतीचे ऐतिहासिक महत्व</title>
+      <meta name='description' content='नवेगाव हे नाशिक जिल्ह्यातील बागलाण तालुक्यात वसलेले एक गाव आहे. हे गाव प्राचीन काळापासून वसलेले आहे आणि पिढ्यानपिढ्या शेती, संस्कृती आणि समाजाशी जोडलेले आहे.' />
+      <link rel="canonical" href="/about-us/historical-significance" />
       <Header />
       <div className="flex-1 bg-gray-200 px-10 py-10">
         <h1 className='text-black font-bold text-4xl' >{(language === "en" )? "Historical Significance" : "ग्रामपंचायतीचे ऐतिहासिक महत्व"}</h1>

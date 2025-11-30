@@ -11,6 +11,9 @@ export default function Home() {
   const slides = [slide_img_1, slide_img_2, slide_img_3, slide_img_4, slide_img_5];
   return (
     <div>
+      <title>Home</title>
+      <meta name="description" content="Check out the home page"/>
+      <link rel="canonical" href="/" />
       <Header />
       <Carousel images={slides} autoSlide={true} autoSlideInterval={4000} />
       <div className="flex flex-col md:flex-row gap-10 justify-evenly items-center p-8">
@@ -59,7 +62,7 @@ export default function Home() {
             loading="lazy"
           />
           <h2 className="mt-3 text-lg font-semibold">{language === "en" ? "Shri. Girish Mahajan" : "श्री. गिरीश महाजन"}   </h2>
-          <h3 className="text-[16px]">{language === "en" ? "Hon. Guardian Minister" : "माननीय पालकमंत्रि"} </h3>
+          <h3 className="text-[16px]">{language === "en" ? "Hon. Guardian Minister" : "माननीय पालकमंत्री"} </h3>
         </div>
       </div>
       <Footer />
