@@ -36,7 +36,7 @@ export default function ContactUs() {
                 className="h-[60px] w-[60px] md:h-[200px] md:w-[200px] object-cover rounded-full"
               />
               <h2 className="mt-3 text-[12px] md:text-lg font-semibold">श्री.राजू भटू ठाकरे </h2>
-              <h3 className="text-[10px] md:text-[16px]">पंचायत अधिकारी</h3>
+              <h3 className="text-[10px] md:text-[16px]">ग्रामपंचायत अधिकारी</h3>
               <h3 className="text-[10px] md:text-sm">मो. Mob no-8799885297</h3>
             </div>
           </div>
@@ -63,7 +63,7 @@ export default function ContactUs() {
                 className="h-[60px] w-[60px] md:h-[200px] md:w-[200px] object-cover rounded-full"
               />
               <h2 className="mt-3 text-[12px] md:text-lg font-semibold">सौ.योगिता संजय पवार</h2>
-              <h3 className="text-[10px] md:text-[16px]">केंद्र चालक</h3>
+              <h3 className="text-[10px] md:text-[16px]">संगणक परिचालक</h3>
             </div>
 
             {/* Staff 3 */}
